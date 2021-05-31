@@ -1,2 +1,2 @@
 # biztory-feedback-email
-The email body we send around to clients to gather feedback.
+The emails we send around to clients to gather feedback. This is where we design them and potentially host some of the content used.
