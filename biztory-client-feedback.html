@@ -1,15 +1,18 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
     <head>
         <title>Biztory Client Feedback</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta http–equiv="Content-Type” content="text/html; charset=UTF-8” />
+        <meta http–equiv="X-UA-Compatible” content="IE=edge” />
+        <meta name="viewport” content="width=device-width, initial-scale=1.0 " />
     </head>
 
-    <body>
+    <body style="font-family: 'Verdana', sans-serif; font-size: large">
 
-        <div class="row justify-content-center mt-5">
-            <div class="col-6 jumbotron">
-                
-                <p class="lead">At Biztory, we are pleased that we get to work with you at {{$json["Company Name"]}}.</p>
+        <table style="background-color: #f5f5f5; border-radius: 12px; padding: 20px; margin: 20px;">
+            <tr><td>
+
+                <p style="font-size: x-large; text-transform: initial; font-variant:small-caps;">At Biztory, we are pleased that we get to work with you at {{$json["Company Name"]}}.</p>
                 
                 <p>Dear {{$json["First Name"]}},</p>
                 
@@ -19,22 +22,24 @@
                 
                 <p>To get started, please start by telling us how you'd rate the work you're doing with Biztory and with {{$json["Consultant"]}}. The scale goes from 1 (awful) to 5 (outstanding): </p>
                 
-                <p class="text-center">
-                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=1"><button type="button" class="btn btn-danger">1</button></a>
-                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=2"><button type="button" class="btn btn-warning">2</button></a>
-                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=3"><button type="button" class="btn btn-warning">3</button></a>
-                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=4"><button type="button" class="btn btn-primary">4</button></a>
-                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=5"><button type="button" class="btn btn-primary">5</button></a>
+                <p style="text-align: center; width: 100%; font-size: x-large;">
+                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=1" style="margin-right: 10px; padding: 10px 15px; text-decoration: none; background-color: #DC3545; display: inline-block; color: #ffffff; border-radius: 8px; text-align: center;">&nbsp;&nbsp;1&nbsp;&nbsp;</a>
+                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=2" style="margin-right: 10px; padding: 10px 15px; text-decoration: none; background-color: #FFC107; display: inline-block; color: #ffffff; border-radius: 8px; text-align: center;">&nbsp;&nbsp;2&nbsp;&nbsp;</a>
+                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=3" style="margin-right: 10px; padding: 10px 15px; text-decoration: none; background-color: #FFC107; display: inline-block; color: #ffffff; border-radius: 8px; text-align: center;">&nbsp;&nbsp;3&nbsp;&nbsp;</a>
+                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=4" style="margin-right: 10px; padding: 10px 15px; text-decoration: none; background-color: #007BFF; display: inline-block; color: #ffffff; border-radius: 8px; text-align: center;">&nbsp;&nbsp;4&nbsp;&nbsp;</a>
+                    <a href="https://akn4te5mhaz.typeform.com/to/Mz5McoZt#consultant={{$json["Consultant"]}}&respondent={{$json["Email"]}}&score=5" style="margin-right: 10px; padding: 10px 15px; text-decoration: none; background-color: #007BFF; display: inline-block; color: #ffffff; border-radius: 8px; text-align: center;">&nbsp;&nbsp;5&nbsp;&nbsp;</a>
                 </p>
                 
                 <p>By providing us with your feedback, you're helping us ameliorate how we work with you. And that means a lot to us!</p>
                 
-                <img src="./images/biztory-small.png" width="120px" class="float-right" alt="Biztory Logo">
                 <p>Best regards,</p>
-
+                
                 <p>The Biztory Team</p>
-            </div>
-        </div>
+                
+                <img src="https://github.com/biztory/biztory-email-templates/blob/main/images/biztory-small.png?raw=true" width="120px" alt="Biztory Logo">
+
+            </td></tr>
+        </table>
 
     </body>
 
